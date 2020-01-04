@@ -1,0 +1,80 @@
+/*---- List ----*/
+
+
+body{
+    background-image:linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.List{
+    background-color:  white;
+    color: lightcoral;
+    min-height: 500px;
+    width: 400px;
+    margin: 40px auto;
+
+}
+
+#to-do-form input{
+    background-color:  white;
+    color: lightcoral;
+    border: 1;
+    width: 200px;
+    padding: 0 40px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#to-do-form input::placeholder{
+    color: lightcoral;
+}
+
+#to-do-form input:focus, #to-do-form button:focus{
+    outline: none;
+}
+#to-do-form button{
+    background-color:  lightcoral;
+    color: white;
+    height: 25px;
+    width: 70px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+
+/*---- ListItems ----*/
+.items-in-list{
+    color: rgb(164, 143, 143);
+    background-color: lightgrey;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.items-in-list p{
+    padding: 10px;
+    position: relative;
+} 
+
+.items-in-list p span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+
+}
+
+.faicon{
+    margin: 0 5px;
+    font-size: 15px;
+     
+
+}
+
+#to-do-form input{
+    background-color: lightgrey;
+    border: 0;
+    color: white;
+}
